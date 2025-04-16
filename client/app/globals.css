@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 37 100% 97%;
+    --foreground: 0 0% 26%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 26%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 26%;
+    --primary: 33 100% 57%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 81% 55%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 36 100% 50%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 33 100% 57%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 20 10% 10%;
+    --foreground: 0 0% 98%;
+    --card: 24 9.8% 10%;
+    --card-foreground: 0 0% 98%;
+    --popover: 24 9.8% 10%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 33 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 81% 50%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 12 6.5% 15.1%;
+    --muted-foreground: 24 5.4% 63.9%;
+    --accent: 36 100% 45%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 12 6.5% 15.1%;
+    --input: 12 6.5% 15.1%;
+    --ring: 33 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-ezy-background text-ezy-text;
+  }
+}
