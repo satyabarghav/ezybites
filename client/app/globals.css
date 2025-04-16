@@ -48,7 +48,7 @@
     --ring: 33 100% 50%;
   }
 }
-
+/* 
 @layer base {
   * {
     @apply border-border;
@@ -56,4 +56,4 @@
   body {
     @apply bg-ezy-background text-ezy-text;
   }
-}
+} */
